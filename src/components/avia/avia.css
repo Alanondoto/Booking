@@ -1,0 +1,10 @@
+.searchItemsWrapper {
+    margin: 68px auto 0;
+    height: 100px;
+    width: 962px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #5C87DB;
+    border-radius: 15px 15px 0 0;
+}

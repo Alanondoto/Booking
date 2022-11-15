@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import './info.css'
 
 export const Info = () => {
 
@@ -11,6 +12,9 @@ export const Info = () => {
       <div>{state.navigateTo}</div>
       <div>{state.flyThere}</div>
       <div>{state.flyBack}</div>
+      <div className="ticketWrapper">
+        <div className="ticketTitle">Невозвратный</div>
+      </div>
     </>
   )
 }

@@ -1,0 +1,21 @@
+.ticketWrapper {
+    position: relative;
+    height: 200px;
+    width: 980px;
+    margin: 71px auto 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+}
+.ticketTitle {
+    position: absolute;
+    padding-top: 8px;
+    width: 132px;
+    height: 26px;
+    background: #8BA5D8;
+    border-radius: 15px 0px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}

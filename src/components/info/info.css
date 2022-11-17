@@ -89,13 +89,14 @@
 .distChooseWrapper {
     position: absolute;
     bottom: 29px;
-    left: 160px;
+    left: 156px;
     display: flex;
-    width: 418px;
+    width: 380px;
     justify-content: space-between;
     align-items: center;
 }
 .timeWrapper {
+    color: #5C5C5C;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -1,4 +1,5 @@
 .ticketWrapper {
+    display: flex;
     position: relative;
     height: 200px;
     width: 980px;
@@ -9,7 +10,7 @@
 }
 .ticketTitle {
     position: absolute;
-    padding-top: 8px;
+    line-height: 26px;
     width: 132px;
     height: 26px;
     background: #8BA5D8;
@@ -18,4 +19,106 @@
     font-size: 12px;
     text-align: center;
     color: #FFFFFF;
+}
+.logoWrapper {
+    margin: 54px 0 0 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logoTitle {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #5C5C5C;
+}
+.distWrapper {
+    display: flex;
+}
+.distFromWrapper {
+    margin: 41px 0 0 48px;
+}
+.distWayWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.time {
+    font-weight: 700;
+    font-size: 24px;
+    color: #232323;
+    line-height: 28px;
+}
+.city {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+    margin-top: 8px;
+}
+.date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+}
+.distLineWrapper {
+    margin: 32px 0 0 32px;
+}
+.distToWrapper {
+    margin: 41px 0 0 31px;
+}
+.baggage {
+    position: absolute;
+    right: 235px;
+}
+.priceWrapper {
+    margin-left: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    border-left: 1px solid #DDE3EE;
+}
+.price {
+    font-weight: 700;
+    font-size: 32px;
+    color: #232323;
+}
+.distChooseWrapper {
+    position: absolute;
+    bottom: 29px;
+    left: 160px;
+    display: flex;
+    width: 418px;
+    justify-content: space-between;
+    align-items: center;
+}
+.timeWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 107px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #B7BAC1;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.timeWrapperActive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    background: #DDE3EE;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.timeWrapper span {
+    font-size: 18px;
+}
+.timeWrapperActive span {
+    font-size: 18px;
 }

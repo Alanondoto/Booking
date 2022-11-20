@@ -123,3 +123,43 @@
 .timeWrapperActive span {
     font-size: 18px;
 }
+.secondTicketWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    height: 330px;
+    margin: 65px auto 0;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 15px;
+}
+.ticketsWrapper {
+    display: flex;
+    position: relative;
+    width: 980px;
+    height: 165px;
+}
+.baggage2 {
+    position: absolute;
+    right: -83px;
+}
+.dashedDevider {
+    position: absolute;
+    width: 626px;
+    border-top: 1px dashed #5C87DB;
+    left: 132px;
+    z-index: +1;
+}
+.secondPriceWrapper {
+    font-weight: 700;
+    font-size: 32px;
+    color: #232323;
+    position: absolute;
+    right: 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 214px;
+    height: 330px;
+    border-left: 1px solid #DDE3EE;
+}
